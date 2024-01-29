@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.vitalforge.persistlib.data"},{"l":"io.github.vitalforge.persistlib.data.clarification"},{"l":"io.github.vitalforge.persistlib.data.type"},{"l":"io.github.vitalforge.persistlib.manipulation"},{"l":"io.github.vitalforge.persistlib.util"}];updateSearchResults();
