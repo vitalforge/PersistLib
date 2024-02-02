@@ -1,5 +1,5 @@
-io.github.vitalforge.persistlib.data
-io.github.vitalforge.persistlib.data.clarification
-io.github.vitalforge.persistlib.data.type
-io.github.vitalforge.persistlib.manipulation
+io.github.vitalforge.persistlib
+io.github.vitalforge.persistlib.dataconversion
+io.github.vitalforge.persistlib.persistannotations
 io.github.vitalforge.persistlib.util
+io.github.vitalforge.persistlib.util.control

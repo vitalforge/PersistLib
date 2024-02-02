@@ -107,20 +107,12 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static &lt;E extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/reflect/Executable.html" title="class or interface in java.lang.reflect" class="external-link">Executable</a>,<wbr>
-C&gt;<br><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>[]</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#composeArgs(E,C,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector)" class="member-name-link">composeArgs</a><wbr>(E&nbsp;executable,
- C&nbsp;dataContainer,
- <a href="../manipulation/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.manipulation">ContainerDataCollector</a>&lt;C,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;dataCollector)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
-<div class="block">Composes arguments for an executable from a data container using a data collector.</div>
-</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static &lt;C,<wbr>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static &lt;C,<wbr>
 P&gt;&nbsp;<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>[]</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#extractFromContainer(C,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector,P...)" class="member-name-link">extractFromContainer</a><wbr>(C&nbsp;container,
- <a href="../manipulation/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.manipulation">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;collector,
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#extractFromContainer(C,io.github.vitalforge.persistlib.util.control.ContainerDataCollector,P...)" class="member-name-link">extractFromContainer</a><wbr>(C&nbsp;container,
+ <a href="control/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.util.control">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;collector,
  P...&nbsp;targets)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">Extracts data from a container using a data collector and a set of targets.</div>
 </div>
 </div>
@@ -141,12 +133,12 @@ P&gt;&nbsp;<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base
 <h2>Method Details</h2>
 <ul class="member-list">
 <li>
-<section class="detail" id="extractFromContainer(C,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector,P...)">
-<h3 id="extractFromContainer(java.lang.Object,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector,java.lang.Object[])">extractFromContainer</h3>
+<section class="detail" id="extractFromContainer(C,io.github.vitalforge.persistlib.util.control.ContainerDataCollector,P...)">
+<h3 id="extractFromContainer(java.lang.Object,io.github.vitalforge.persistlib.util.control.ContainerDataCollector,java.lang.Object[])">extractFromContainer</h3>
 <div class="member-signature"><span class="annotations"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/SafeVarargs.html" title="class or interface in java.lang" class="external-link">@SafeVarargs</a>
 </span><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;C,<wbr>
 P&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>[]</span>&nbsp;<span class="element-name">extractFromContainer</span><wbr><span class="parameters">(C&nbsp;container,
- <a href="../manipulation/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.manipulation">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;collector,
+ <a href="control/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.util.control">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;collector,
  P...&nbsp;targets)</span></div>
 <div class="block">Extracts data from a container using a data collector and a set of targets.</div>
 <dl class="notes">
@@ -159,27 +151,6 @@ P&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/
 <dd><code>targets</code> - The targets to extract from the container.</dd>
 <dt>Returns:</dt>
 <dd>An array of objects extracted from the container.</dd>
-</dl>
-</section>
-</li>
-<li>
-<section class="detail" id="composeArgs(E,C,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector)">
-<h3 id="composeArgs(java.lang.reflect.Executable,java.lang.Object,io.github.vitalforge.persistlib.manipulation.ContainerDataCollector)">composeArgs</h3>
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;E extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/reflect/Executable.html" title="class or interface in java.lang.reflect" class="external-link">Executable</a>,<wbr>
-C&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>[]</span>&nbsp;<span class="element-name">composeArgs</span><wbr><span class="parameters">(E&nbsp;executable,
- C&nbsp;dataContainer,
- <a href="../manipulation/ContainerDataCollector.html" title="interface in io.github.vitalforge.persistlib.manipulation">ContainerDataCollector</a>&lt;C,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;dataCollector)</span></div>
-<div class="block">Composes arguments for an executable from a data container using a data collector.</div>
-<dl class="notes">
-<dt>Type Parameters:</dt>
-<dd><code>E</code> - The type of the executable.</dd>
-<dd><code>C</code> - The type of the data container.</dd>
-<dt>Parameters:</dt>
-<dd><code>executable</code> - The executable for which to compose arguments.</dd>
-<dd><code>dataContainer</code> - The container from which to extract data.</dd>
-<dd><code>dataCollector</code> - The data collector to use for extraction.</dd>
-<dt>Returns:</dt>
-<dd>An array of objects to be used as arguments for the executable.</dd>
 </dl>
 </section>
 </li>

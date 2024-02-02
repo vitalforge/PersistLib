@@ -51,11 +51,11 @@ loadScripts(document, 'script');</script>
 <h1 class="title">Hierarchy For All Packages</h1>
 <span class="package-hierarchy-label">Package Hierarchies:</span>
 <ul class="horizontal">
-<li><a href="io/github/vitalforge/persistlib/data/package-tree.html">io.github.vitalforge.persistlib.data</a>, </li>
-<li><a href="io/github/vitalforge/persistlib/data/clarification/package-tree.html">io.github.vitalforge.persistlib.data.clarification</a>, </li>
-<li><a href="io/github/vitalforge/persistlib/data/type/package-tree.html">io.github.vitalforge.persistlib.data.type</a>, </li>
-<li><a href="io/github/vitalforge/persistlib/manipulation/package-tree.html">io.github.vitalforge.persistlib.manipulation</a>, </li>
-<li><a href="io/github/vitalforge/persistlib/util/package-tree.html">io.github.vitalforge.persistlib.util</a></li>
+<li><a href="io/github/vitalforge/persistlib/package-tree.html">io.github.vitalforge.persistlib</a>, </li>
+<li><a href="io/github/vitalforge/persistlib/dataconversion/package-tree.html">io.github.vitalforge.persistlib.dataconversion</a>, </li>
+<li><a href="io/github/vitalforge/persistlib/persistannotations/package-tree.html">io.github.vitalforge.persistlib.persistannotations</a>, </li>
+<li><a href="io/github/vitalforge/persistlib/util/package-tree.html">io.github.vitalforge.persistlib.util</a>, </li>
+<li><a href="io/github/vitalforge/persistlib/util/control/package-tree.html">io.github.vitalforge.persistlib.util.control</a></li>
 </ul>
 </div>
 <section class="hierarchy">
@@ -63,13 +63,13 @@ loadScripts(document, 'script');</script>
 <ul>
 <li class="circle">java.lang.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" class="type-name-link external-link" title="class or interface in java.lang">Object</a>
 <ul>
+<li class="circle">io.github.vitalforge.persistlib.<a href="io/github/vitalforge/persistlib/BasePersist.html" class="type-name-link" title="class in io.github.vitalforge.persistlib">BasePersist</a></li>
 <li class="circle">io.github.vitalforge.persistlib.util.<a href="io/github/vitalforge/persistlib/util/ClassUtils.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.util">ClassUtils</a></li>
 <li class="circle">io.github.vitalforge.persistlib.util.<a href="io/github/vitalforge/persistlib/util/MapUtils.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.util">MapUtils</a></li>
-<li class="circle">io.github.vitalforge.persistlib.data.type.<a href="io/github/vitalforge/persistlib/data/type/PersistDestination.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.data.type">PersistDestination</a></li>
-<li class="circle">io.github.vitalforge.persistlib.util.<a href="io/github/vitalforge/persistlib/util/PersistObjects.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.util">PersistObjects</a></li>
-<li class="circle">io.github.vitalforge.persistlib.data.type.<a href="io/github/vitalforge/persistlib/data/type/PersistRequest.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.data.type">PersistRequest</a></li>
+<li class="circle">io.github.vitalforge.persistlib.dataconversion.<a href="io/github/vitalforge/persistlib/dataconversion/PersistData.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.dataconversion">PersistData</a>&lt;T,<wbr>D&gt;</li>
+<li class="circle">io.github.vitalforge.persistlib.dataconversion.<a href="io/github/vitalforge/persistlib/dataconversion/PersistData.Builder.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.dataconversion">PersistData.Builder</a>&lt;T,<wbr>D&gt;</li>
+<li class="circle">io.github.vitalforge.persistlib.util.<a href="io/github/vitalforge/persistlib/util/PersistUtils.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.util">PersistUtils</a></li>
 <li class="circle">io.github.vitalforge.persistlib.util.<a href="io/github/vitalforge/persistlib/util/Reflection.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.util">Reflection</a></li>
-<li class="circle">io.github.vitalforge.persistlib.manipulation.<a href="io/github/vitalforge/persistlib/manipulation/YamlPersist.html" class="type-name-link" title="class in io.github.vitalforge.persistlib.manipulation">YamlPersist</a></li>
 </ul>
 </li>
 </ul>
@@ -77,18 +77,17 @@ loadScripts(document, 'script');</script>
 <section class="hierarchy">
 <h2 title="Interface Hierarchy">Interface Hierarchy</h2>
 <ul>
-<li class="circle">io.github.vitalforge.persistlib.manipulation.<a href="io/github/vitalforge/persistlib/manipulation/ContainerDataCollector.html" class="type-name-link" title="interface in io.github.vitalforge.persistlib.manipulation">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr>R&gt;</li>
+<li class="circle">io.github.vitalforge.persistlib.util.control.<a href="io/github/vitalforge/persistlib/util/control/ContainerDataCollector.html" class="type-name-link" title="interface in io.github.vitalforge.persistlib.util.control">ContainerDataCollector</a>&lt;C,<wbr>P,<wbr>R&gt;</li>
 </ul>
 </section>
 <section class="hierarchy">
 <h2 title="Annotation Interface Hierarchy">Annotation Interface Hierarchy</h2>
 <ul>
-<li class="circle">io.github.vitalforge.persistlib.data.<a href="io/github/vitalforge/persistlib/data/Constructor.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data">Constructor</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
-<li class="circle">io.github.vitalforge.persistlib.data.<a href="io/github/vitalforge/persistlib/data/Parameter.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data">Parameter</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
-<li class="circle">io.github.vitalforge.persistlib.data.clarification.<a href="io/github/vitalforge/persistlib/data/clarification/PersistClass.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data.clarification">PersistClass</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
-<li class="circle">io.github.vitalforge.persistlib.data.<a href="io/github/vitalforge/persistlib/data/PersistField.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data">PersistField</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
-<li class="circle">io.github.vitalforge.persistlib.data.<a href="io/github/vitalforge/persistlib/data/PersistKey.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data">PersistKey</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
-<li class="circle">io.github.vitalforge.persistlib.data.<a href="io/github/vitalforge/persistlib/data/PersistMethod.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.data">PersistMethod</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/Constructor.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.persistannotations">Constructor</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/DataRequest.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.persistannotations">DataRequest</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/Parameter.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.persistannotations">Parameter</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/PersistField.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.persistannotations">PersistField</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/PersistResult.html" class="type-name-link" title="annotation interface in io.github.vitalforge.persistlib.persistannotations">PersistResult</a> (implements java.lang.annotation.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>)</li>
 </ul>
 </section>
 <section class="hierarchy">
@@ -98,7 +97,8 @@ loadScripts(document, 'script');</script>
 <ul>
 <li class="circle">java.lang.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Enum.html" class="type-name-link external-link" title="class or interface in java.lang">Enum</a>&lt;E&gt; (implements java.lang.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;T&gt;, java.lang.constant.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/constant/Constable.html" title="class or interface in java.lang.constant" class="external-link">Constable</a>, java.io.<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/io/Serializable.html" title="class or interface in java.io" class="external-link">Serializable</a>)
 <ul>
-<li class="circle">io.github.vitalforge.persistlib.data.type.<a href="io/github/vitalforge/persistlib/data/type/PersistDirection.html" class="type-name-link" title="enum class in io.github.vitalforge.persistlib.data.type">PersistDirection</a></li>
+<li class="circle">io.github.vitalforge.persistlib.persistannotations.<a href="io/github/vitalforge/persistlib/persistannotations/DataType.html" class="type-name-link" title="enum class in io.github.vitalforge.persistlib.persistannotations">DataType</a></li>
+<li class="circle">io.github.vitalforge.persistlib.dataconversion.<a href="io/github/vitalforge/persistlib/dataconversion/PersistDataFlags.html" class="type-name-link" title="enum class in io.github.vitalforge.persistlib.dataconversion">PersistDataFlags</a></li>
 </ul>
 </li>
 </ul>

@@ -107,21 +107,6 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static &lt;T extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr>
-<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&gt;<br>T</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#expandMap(T,java.lang.String)" class="member-name-link">expandMap</a><wbr>(T&nbsp;map,
- <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
-<div class="block">Expands a map by adding nested maps along a specified string path.</div>
-</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static &lt;T extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;K,<wbr>
-<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;,<wbr>
-K&gt;<br>T</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#expandMap(T,K%5B%5D)" class="member-name-link">expandMap</a><wbr>(T&nbsp;map,
- K[]&nbsp;path)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
-<div class="block">Expands a map by adding nested maps along a specified path.</div>
-</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static @Nullable <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getDeepValue(java.util.Map,java.lang.String)" class="member-name-link">getDeepValue</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&nbsp;map,
  <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</code></div>
@@ -196,44 +181,6 @@ K&gt;<br>T</code></div>
 <dd><code>path</code> - The path to the value in the map.</dd>
 <dt>Returns:</dt>
 <dd>The value at the specified path, or null if the path does not exist.</dd>
-</dl>
-</section>
-</li>
-<li>
-<section class="detail" id="expandMap(T,java.lang.String)">
-<h3 id="expandMap(java.util.Map,java.lang.String)">expandMap</h3>
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr>
-<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;&gt;</span>&nbsp;<span class="return-type">T</span>&nbsp;<span class="element-name">expandMap</span><wbr><span class="parameters">(T&nbsp;map,
- <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;path)</span></div>
-<div class="block">Expands a map by adding nested maps along a specified string path.</div>
-<dl class="notes">
-<dt>Type Parameters:</dt>
-<dd><code>T</code> - The type of the map.</dd>
-<dt>Parameters:</dt>
-<dd><code>map</code> - The map to expand.</dd>
-<dd><code>path</code> - The path along which to add nested maps.</dd>
-<dt>Returns:</dt>
-<dd>The expanded map.</dd>
-</dl>
-</section>
-</li>
-<li>
-<section class="detail" id="expandMap(T,K[])">
-<h3 id="expandMap(java.util.Map,java.lang.Object[])">expandMap</h3>
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T extends <a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;K,<wbr>
-<a href="https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;,<wbr>
-K&gt;</span>&nbsp;<span class="return-type">T</span>&nbsp;<span class="element-name">expandMap</span><wbr><span class="parameters">(T&nbsp;map,
- K[]&nbsp;path)</span></div>
-<div class="block">Expands a map by adding nested maps along a specified path.</div>
-<dl class="notes">
-<dt>Type Parameters:</dt>
-<dd><code>T</code> - The type of the map.</dd>
-<dd><code>K</code> - The type of the keys in the map.</dd>
-<dt>Parameters:</dt>
-<dd><code>map</code> - The map to expand.</dd>
-<dd><code>path</code> - The path along which to add nested maps.</dd>
-<dt>Returns:</dt>
-<dd>The expanded map.</dd>
 </dl>
 </section>
 </li>
